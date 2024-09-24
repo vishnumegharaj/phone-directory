@@ -1,0 +1,79 @@
+.container {
+    padding: 20px;
+}
+
+.add-btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: 150px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.grid-items {
+    display: grid;
+    grid-template-columns: 25% 25% auto;
+    margin-bottom: 10px;
+    
+}
+
+.heading-container {
+    color: rgb(57, 57, 57);
+    font-size: larger;
+    font-weight: bold;
+    word-wrap: break-word;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.heading {
+    text-align: left;
+    font-size: x-large;
+}
+
+.subscriber-details {
+    padding-top: 15px;
+}
+
+.delete-btn {
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 0px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .heading-container {
+
+        font-size: medium;
+
+    }
+
+    .heading {
+        font-size: medium;
+    }
+
+    .delete-btn {
+        height: 25px;
+        width: 60px;
+        padding: 3px;
+        font-size: small;
+      
+    }
+    .grid-items {
+        display: grid;
+        grid-template-columns: 40% 40% auto;
+        margin-bottom: 10px;
+    }
+}

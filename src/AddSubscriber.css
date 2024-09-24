@@ -1,0 +1,39 @@
+.back-btn{
+    background-color: rgb(134, 134, 134) ;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: 80px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.label-control{
+    font-size: large;
+    font-weight: 500;
+}
+.addSubscriber-form{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.input-control{
+    margin-top: 5px;
+    height: 20px;
+    width: 250px;
+}
+.subscriber-info-container{
+    font-size: large;
+    margin: 20px 0px;
+}
+.subscriber-info{
+    padding-top: 10px;
+}
+.custom-add-btn{
+   
+}
+.container{
+    margin-left: 5%;
+}
